@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/serach_deivceList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索附近蓝牙设备" />
+
+        <Button
+            android:id="@+id/serach_deivceOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="搜索目标蓝牙设备" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bangding_deivce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="绑定腕表设备" />
+
+        <Button
+            android:id="@+id/check_deivceSport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看腕表的运动状态" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!" />
+</LinearLayout>
